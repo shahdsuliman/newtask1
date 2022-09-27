@@ -1,0 +1,350 @@
+header{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 60px;
+    box-shadow: 0px 5px #fafafa;
+    font-family: ' Nunito Sans' , sans-serif;
+    font-size: 12px;
+
+}
+
+  
+button {
+ border: none;
+ display: flex;
+ background-color: white;
+ align-items: center;
+ margin-right: -20%;
+ 
+}
+#moon{
+    height: 6%;
+    width: 6%;
+    padding: 0px 10px 0px 10px;
+}
+div.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 0px 60px;
+}
+
+#Inputbox{
+    background-image: url('search-outline.svg');
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    width:30%;
+    height:35px;
+    padding:  8px 30px 8px 60px;
+    align-items: center;
+    background-position: 5% 50%; 
+    border: none;
+    box-shadow: 5px 5px 5px 5px #fafafa;
+    border-radius: 4px;
+    
+}
+
+.dropdown{
+    width: 15%;
+    height: 15%;
+    position: relative;
+    background-image: url('chevron-down-outline.svg');
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: 90% 4%; 
+}
+.dropdown-select{
+    padding:  10px 20px 15px 17px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px #fafafa;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    font-family: ' Nunito Sans' , sans-serif;
+  
+}
+
+.dropdown-list{
+    border-radius: 4px;
+    padding:  10px 20px 15px 17px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s linear,visibility 0.2s linear;
+  
+    z-index:1;
+    background-color: white;
+   
+}
+.dropdown:hover .dropdown-list{
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.2s linear,visibility 0.2s linear;
+}
+.dropdown-list-item{
+    padding: 5%;
+  
+  
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+    height: 400px;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 2.3%;
+
+}
+.item{
+width:22%;
+box-shadow: 5px 5px 5px 5px #fafafa;
+border-radius: 4px;
+margin-bottom: 2%;
+}
+img{
+    width: 100%;
+    height: 45%;
+    border-radius: 4px;
+}
+h3{
+    font-family: ' Nunito Sans' , sans-serif;
+    padding-left:10% ;
+}
+.a{
+    font-weight: bold;
+    padding-left:10% ;
+    font-family: ' Nunito Sans' , sans-serif;
+}
+
+.b{
+    font-weight: bold;
+    font-family: ' Nunito Sans' , sans-serif;
+}
+.container2{
+    display: flex;
+    margin-top:6% ;
+    height: 700px;
+}
+.back{
+    width: 10%;
+    height: 40px;
+    padding:  10px 40px 10px 40px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px 7px #fafafa;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+#pic{
+    height: 60%;
+    width: 40%;
+    margin-left: 5%;
+}
+#backicon{
+    height: 20px;
+}
+.textcont{
+    text-align: left;
+    padding-left: 10%;
+     font-family: ' Nunito Sans' , sans-serif;
+     width: 50%;
+  
+    
+}
+.box{
+    display: flex;
+    margin-bottom: 40px;
+
+}
+.box1{
+    padding-left: 10%;
+
+}
+
+.footer-item{
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+   width:0.1%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.footer-button{
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #fafafa;
+    margin: 2px;
+    border-radius: 4px;  
+}
+@media only screen and (max-width:376px)
+ {
+    header{
+        display: flex;
+        background-color:white;
+        align-items: center;
+        box-shadow: 0px 5px #fafafa;
+        font-family: ' Nunito Sans' , sans-serif;
+        font-size: 6px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+    
+    }
+    
+    button {
+        border: none;
+        display: flex;
+        background-color: white;
+        align-items: center;
+        width: 40%;
+        font-size: 9px;
+        
+       }
+       #moon{
+        height: 11%;
+        width: 11%;
+      
+    }
+    div.main{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left:-20px ;
+    }
+    #Inputbox{
+        background-image: url('search-outline.svg');
+        background-size: 15px 25px;
+        background-repeat: no-repeat;
+        width:80%;
+        height:20px;
+        padding:  8px 30px 8px 60px;
+        align-items: center;
+        background-position: 5% 50%; 
+        border: none;
+        box-shadow: 5px 5px 5px 5px #fafafa;
+        border-radius: 4px;
+        font-size: 9px;
+        margin-bottom: 20px;
+        margin-left: -20%;
+        
+    }
+    .dropdown{
+        width: 50%;
+        height: 30px;
+        position: relative;
+        background-image: url('chevron-down-outline.svg');
+        background-size: 20px 30px;
+        background-repeat: no-repeat;
+        align-items: center;
+        background-position: 90% 4%; 
+        font-size: 9px;
+        margin-bottom: 10px;
+        margin-left: -20%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 2.3%;
+        width: 80%;
+    
+    }
+    img{
+        width: 100%;
+        height: 65%;
+        border-radius: 4px;
+    }
+    .item{
+        width:90%;
+        box-shadow: 5px 5px 5px 5px #fafafa;
+        border-radius: 4px;
+        margin-bottom: 10%;
+        margin-left: 20px;
+        font-size: 11px;
+
+        }
+        .textcont{
+             text-align: left;
+             padding-left: 10%;
+             font-family: ' Nunito Sans' , sans-serif;
+             width: 120%;
+             font-size: 9px;
+            
+        }
+        .back{
+            width: 30%;
+            height: 30px;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 7px 7px 7px 7px #fafafa;
+            margin-top: 10%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        
+        }
+    
+    #backicon{
+        height: 150%;
+        width: 170%;
+        margin-left: -11px;
+    }
+    .container2{
+       display: flex;
+        margin-top:10% ;
+        height: 900px;
+        flex-direction: column;
+        width:80%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    #pic{
+        height: 20%;
+        width: 105%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    .box1{
+        margin-top: 5%;
+        margin-left: -32px;
+    
+    }
+    .footer-item{
+       display: block;
+        align-items: center;
+        margin-left: 20px;
+        width:30%;
+        margin-top: 20%;
+      
+     }
+     .footer-button{
+        padding: 10px;
+        box-shadow: 5px 5px 5px 5px #fafafa;
+        margin: 2px;
+        border-radius: 4px;  
+        width: 70%;
+       
+    }
+    
+    .box{
+        display: flex;
+        margin-bottom: 0px;
+    
+    }
+}
+@media only screen and (min-width:376px ) and (max-width:1440px)   {
+ select{
+    box-sizing: border-box;
+ }
+
+}
